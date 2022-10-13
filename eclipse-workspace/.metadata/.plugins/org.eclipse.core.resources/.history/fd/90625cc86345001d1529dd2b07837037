@@ -1,0 +1,28 @@
+package unit;
+
+public class Calculator {
+	
+	public static int findBig1(int x, int y)
+	{
+		if(x>y)
+			return x;
+		else
+			return y;
+	}
+	
+	public static int findSmall(int x, int y)
+	{
+		if(x>y)
+			return y;
+		else
+			return x;
+	}
+
+	public static int findBiggest(int x, int z) 
+	{
+		if(x>z)
+			return x;
+		else
+			return z;
+}
+}

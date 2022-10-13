@@ -1,0 +1,13 @@
+package unit;
+
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+
+public class ExecuteApp {
+	public static void main(String[] args) {
+		System.out.println("Do something in the application");
+		Result res=JUnitCore.runClasses(RunTest.class);
+		System.out.println("Do something in the application");
+	}
+}
+    

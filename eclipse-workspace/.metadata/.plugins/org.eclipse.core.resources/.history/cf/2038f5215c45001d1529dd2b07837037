@@ -1,0 +1,21 @@
+package unit;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class RunTest {
+	@Test // check if findBig() method returns right results
+	public void runFindBig() {
+		//assertequals check if first argument is equal to 2nd argument
+		assertEquals(500,Calculator.findBig(500, 200));
+	}
+	public void rundFindSmall() {
+		assertEquals=(10,Calculator.findSmall(10, 20));
+	}
+	public void runFindBiggest() {
+		assertEquals=(20,Calculator.findBiggest(10,20,15));
+		
+	}
+	
+}

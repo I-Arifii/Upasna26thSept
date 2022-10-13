@@ -1,0 +1,21 @@
+package userDefinedExp;
+
+public class ElectionDay {
+	public static void main(String[] args) {
+		Election obj=new Election();
+		try {
+			obj.checkEligibility(19);
+		} catch (InvalidAgeException e) {
+			System.out.println(e.getMessage());
+		
+		}
+		CheckCC obj1=new CheckCC();
+		obj1.check("12345678984382020294475);"
+	} catch (CreditCardException e) {
+		
+		System.out.println(e.getMessage());
+		
+	}
+	
+
+}

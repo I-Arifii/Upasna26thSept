@@ -1,0 +1,15 @@
+package exception;
+
+public class Shopping {
+	
+	public void addToCart()
+	{
+		String[] cart=new String[5];
+		cart[5]="Mobile";
+	}
+	
+	public void makePayment()
+	{
+		
+	}
+}

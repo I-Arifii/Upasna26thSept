@@ -1,0 +1,25 @@
+package mapExample;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapTest {
+	
+	public static void main(String[] args) {
+		Map<Integer, String> myMap=new HashMap();
+		
+		myMap.put(45326,  "London");
+		myMap.put(43605,  "New York");
+		myMap.put(54833,  "Shanghai");
+		myMap.put(65378,  "Sidney");
+		myMap.put(54727,  "Istanbul");
+		myMap.put(54727,  "Istanbul");
+		for(Map.Entry m:myMap.entrySet());
+		{
+			
+		}
+		
+		
+	}
+
+}

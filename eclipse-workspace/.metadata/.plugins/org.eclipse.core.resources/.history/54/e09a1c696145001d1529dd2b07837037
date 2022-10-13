@@ -1,0 +1,20 @@
+package unit;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class RunTest {
+	@Test //check if findBig() method returns right results
+	public void runFindBig() {
+		assertEquals(500,Calculator.findBig1(500, 200));
+
+    }
+	
+	@Test //check if findBig() method returns right results
+	public void runFindSmall() {
+		//assertEquals check if first argument is equal to seconf argument
+		assertEquals(10,Calculator.findSmall(10, 20));
+	}
+}
+
